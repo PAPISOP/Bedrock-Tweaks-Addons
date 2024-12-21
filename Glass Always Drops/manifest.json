@@ -1,0 +1,48 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Glass Always Drops",
+		"description": "Glass Always Drops",
+		"uuid": "df9386ad-703b-4d16-a804-bae204d697d9",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			21,
+			50
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"description": "Glass Always Drops Behavior Pack Module",
+			"uuid": "f25f6db2-af00-49ff-b360-2682bc160314",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"language": "javascript",
+			"type": "script",
+			"description": "Glass Always Drops Scripting APIs Features",
+			"uuid": "4028594d-46cb-4664-af04-95f13ca4c46a",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.16.0"
+		}
+	]
+}

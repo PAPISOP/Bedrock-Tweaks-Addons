@@ -1,0 +1,48 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Cauldron Mud",
+		"description": "Cauldron Mud",
+		"uuid": "e2219a80-79d2-4507-bc3d-61144b079fa7",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			21,
+			50
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"description": "Cauldron Mud Behavior Pack Module",
+			"uuid": "8562e997-d49d-40b8-b335-231751ad6f49",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"language": "javascript",
+			"type": "script",
+			"description": "Cauldron Mud Scripting APIs Features",
+			"uuid": "763f0a48-41ec-4222-a8e2-13ca1641ad58",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.16.0"
+		}
+	]
+}

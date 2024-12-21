@@ -1,0 +1,48 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Dragon Drops",
+		"description": "Dragon Drops",
+		"uuid": "9d35edb5-4bc8-47a4-9358-33ab58755dfe",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			21,
+			50
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"description": "Dragon Drops Behavior Pack Module",
+			"uuid": "2a00f952-29b0-444b-a9c3-300497cb9c85",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"language": "javascript",
+			"type": "script",
+			"description": "Dragon Drops Scripting APIs Features",
+			"uuid": "7d56e75f-5cf0-406c-9e08-f36f46aeb212",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.16.0"
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Redstone Rotation Wrench BP",
+		"description": "Redstone Rotation Wrench BP",
+		"uuid": "f791c6d9-b704-4195-8a75-c3cf9e6b7b08",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			21,
+			50
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"description": "Redstone Rotation Wrench Behavior Pack Module",
+			"uuid": "be24d6ad-090e-4c06-b9b7-b2568d30b9a3",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"language": "javascript",
+			"type": "script",
+			"description": "Redstone Rotation Wrench Scripting APIs Features",
+			"uuid": "01cfdb6d-8c94-4267-b0aa-608f3467bda5",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.16.0"
+		},
+		{
+			"uuid": "c0614a81-1b55-4a9d-9f23-ad149c1f46c5",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

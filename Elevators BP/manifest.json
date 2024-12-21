@@ -1,0 +1,56 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Elevators BP",
+		"description": "Elevators BP",
+		"uuid": "eb525556-0855-43e7-b26a-81081da15be2",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			21,
+			50
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"description": "Elevators Behavior Pack Module",
+			"uuid": "8a1a7dcb-40c9-4a6c-83b1-d89a78ed7b72",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"language": "javascript",
+			"type": "script",
+			"description": "Elevators Scripting APIs Features",
+			"uuid": "b3ec587a-a383-4bf4-9b78-2dbb079a5aca",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.16.0"
+		},
+		{
+			"uuid": "8e120e88-b3e7-47ae-b6c2-ee909bae44f5",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

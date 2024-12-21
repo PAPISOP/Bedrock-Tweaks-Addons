@@ -1,0 +1,48 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Ender Chest Always Drops",
+		"description": "Ender Chest Always Drops",
+		"uuid": "d1ce9e06-ae44-454a-8974-575be42de02f",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			21,
+			40
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"description": "Ender Chest Always Drops Behavior Pack Module",
+			"uuid": "d6af55e1-46a3-481a-ba53-1be463402193",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"language": "javascript",
+			"type": "script",
+			"description": "Ender Chest Always Drops Scripting APIs Features",
+			"uuid": "e06fca60-3525-49a4-9f57-a8e33ce2bd54",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.15.0"
+		}
+	]
+}

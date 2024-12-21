@@ -1,0 +1,48 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Cauldron Concrete",
+		"description": "Cauldron Concrete",
+		"uuid": "488ae5a2-1525-429f-9cfc-9977d287b5f6",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			21,
+			50
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"description": "Cauldron Concrete Behavior Pack Module",
+			"uuid": "21d87d5c-db5a-4bba-ad74-d1a6bc626f59",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"language": "javascript",
+			"type": "script",
+			"description": "Cauldron Concrete Scripting APIs Features",
+			"uuid": "a0374d3f-ccd4-437a-a7f8-dd8744958661",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.16.0"
+		}
+	]
+}

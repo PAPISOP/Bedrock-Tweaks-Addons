@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "Redstone Rotation Wrench RP",
+		"name": "Redstone Rotation Wrench RP",
+		"uuid": "c0614a81-1b55-4a9d-9f23-ad149c1f46c5",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			21,
+			50
+		]
+	},
+	"modules": [
+		{
+			"description": "Redstone Rotation Wrench RP",
+			"type": "resources",
+			"uuid": "31495179-21c0-4595-8d51-2a327671dd57",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
