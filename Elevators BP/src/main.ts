@@ -304,10 +304,8 @@ world.afterEvents.playerSpawn.subscribe(playerSpawnEvent => {
 world.afterEvents.entityDie.subscribe(dieEvent => {
 	const { deadEntity: player } = dieEvent;
 
-	if (!(player instanceof Player)) return;
-
-	stopTP(player);
-});
+	stopTP(player as Player);
+}, { entityTypes: ["minecraft:player"] });
 
 world.afterEvents.worldInitialize.subscribe(() => {
 	for (const player of world.getAllPlayers()) {
