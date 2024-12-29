@@ -6,7 +6,7 @@ This repository will become private when Bedrock Tweaks finally started acceptin
 
 # License
 
-Currently, this project is unlicensed. This project will fall under Bedrock Tweaks' license after I pushed these addons to Bedrock Tweaks.
+Currently, this project has no license. This project will fall under Bedrock Tweaks' license after I pushed these addons to Bedrock Tweaks.
 
 # Credits
 
